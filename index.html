@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Manager Software</title>
+
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="">
+            <ul class="">
+                <div class="">
+                    <img src="https://cdn0.iconfinder.com/data/icons/work-from-home-18/512/FoodDelivery-food-delivery-meal-order-256.png" alt="" width="55px">
+                    <li><a href="">Order Software Manager</a></li>
+                </div>
+                <div class="">
+                    <li class="mr"><a href="">Benefits</a></li>
+                    <li><a href="">Our Customers</a></li>
+                </div>
+                <div class="">
+                    <li><a href="" class="btn">Contact Us </a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="landing">
+            <div class="landing-text">
+                <h1>The tool that you <span class="red">Need</span>
+                    <br>to manage your Business like <br>
+                    <span class="pro">PRO</span>
+                </h1>
+                <a class="btn" href="">Try it</a>
+            </div>
+            <img src="https://www.marsmedia.nl/wp-content/uploads/2020/10/undraw_all_the_data_h4ki.svg" alt="" width="100px">
+        </section>
+    </main>
+
+    <style>
+        /* Navigation */
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        ul {
+            padding: 20px 20px;
+            width: 90%;
+            margin: 0 auto;
+            list-style: none;
+            font-size: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        nav>ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        nav>ul>* {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        nav>ul>div>* {
+            margin-right: 20px;
+        }
+        
+        .mr {
+            margin-right: 60px;
+        }
+        
+        nav>ul>div>li>a:hover {
+            color: blue;
+        }
+        
+        .btn {
+            padding: 7px 19px;
+            border-radius: 8px;
+            color: blue;
+            border: 2px solid blue;
+        }
+        
+        .btn:hover {
+            background-color: blue;
+            color: white;
+        }
+        
+        #landing {
+            display: flex;
+            padding: 30px 5px;
+            justify-content: space-between;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #landing>* {
+            width: 50%;
+        }
+        
+        h1 {
+            font-size: 50px;
+            margin-left: 20px;
+            line-height: 75px;
+            font-weight: normal;
+        }
+        
+        .pro {
+            color: blue;
+            font-weight: bold;
+        }
+        
+        .red {
+            color: red;
+            font-weight: bold;
+        }
+        
+        .landing-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .landing-text>.btn {
+            margin-top: 30px;
+            padding: 10px 70px;
+            background-color: blue;
+            color: white;
+        }
+        
+        @media (max-width: 935px) {
+            nav>ul>* {
+                padding: 20px 0px;
+            }
+            #landing {
+                flex-direction: column;
+            }
+            #landing>* {
+                width: 300px;
+                padding-bottom: 50px;
+            }
+            #landing>img {
+                order: 0;
+            }
+            #landing>.landing-text {
+                order: 1;
+            }
+        }
+    </style>
+
+</body>
+
+</html>
